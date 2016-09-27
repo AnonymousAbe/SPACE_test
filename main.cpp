@@ -21,6 +21,8 @@ int main(int argc, char *argv[]){
   int maxHP = 11;
   int damage = atoi(argv[1]);
   int HPleft = 0;
+  int dir = 0;
+  char direction[2];
 
 //  printf("Hello meow\n");
 
@@ -36,6 +38,13 @@ int main(int argc, char *argv[]){
   HPleft = T.damage(damage);
 
   printf("Damage dealt: %d\nHP remaining: %d\n\n", damage, HPleft);
+
+  printf("Choose a direction: 0 - 3");
+  scanf("%s", direction);
+  dir = atoi(direction);
+  T.move(dir);
+
+  printf("You are now at x,y (%d,%d)\n\n", T.xpos, T.ypos);
 
   return 0;
 
