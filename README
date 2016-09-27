@@ -1,0 +1,48 @@
+Hello
+
+Lets put some ideas here for what we want this to be.  
+
+
+
+/**********************************/
+       STORY
+/**********************************/
+
+Ahh Space, the Final Frontier.  Is space cool?  What's out there?  Let's find out.
+
+
+
+
+/**********************************/
+       GAME MECHANICS
+/**********************************/
+
+"My Cold Iron Longsword deals 1d6 + 6 damage and it can't be reduced!"  What kind 
+of rules should we have?  How does combat work?  Or non-combat encounters?
+
+
+
+
+/**********************************/
+       Game Structure
+/**********************************/
+
+How are we even going to do this?  It'll be easy, let's decide what language we
+want to use (C vs C++?) and how the game engine will run.  Right now the code
+I have in here is just to refresh my memory of C++ and C code.  We could structure
+the game totally differently.  There are also some online tutorials that already
+have C classes setup for any generic text-based adventure game we might want to
+get ideas from.
+
+Aside from how to create items, monsters, traps, SPACESHIPS! we will also need
+a way to interface with the player to make it seem like they have many options.
+What kind of options do you think are important?
+
+
+
+
+
+
+
+
+
